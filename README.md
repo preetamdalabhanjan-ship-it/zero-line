@@ -1,11 +1,11 @@
-# Zero-Line Clinic Hub
+# Zero-Line Clinic Hub (`preetamdalabhanjan-ship-it/zero-line-pro`)
 
-Deploy only the files in this folder's root (index.html, manifest.json, sw.js, icons, robots.txt, sitemap.xml).
+**Zero-Line Clinic Hub** is a proprietary commercial Progressive Web App (PWA) built with a rough-edged clinical slate-teal hardware aesthetic (`#090d16`), Gmail authentication, Unique Cloud Patient IDs (`CLD-XXXX`), Front Desk Cash Collection, Doctor Tablet Digital Formulary Search, Paid-Only Pharmacy Handover Gate, Cryptographic License Signatures, Razorpay Live Checkout, and a Zero-Leak 5 TB Google Drive Backend Server (`google_drive_backend_server.gs`).
 
-- `index.html` is the protected build: minified and obfuscated, with a host check. Deploy this.
-- `source/` is your readable master. Keep it in a PRIVATE repository, never in the public site repo.
-  To rebuild: edit `source/index.src.html`, then run `build.mjs` (Node) with Tailwind 3.4 and javascript-obfuscator.
-- Host check: the protected build only runs on the hosts listed in `ALLOWED_HOSTS` (default: your GitHub Pages host, localhost).
-  Build for another domain with `ALLOWED_HOSTS=yourdomain.com node build.mjs`.
+## Included Files
 
-Default doctor PIN is 1234. Change it in Settings > Sync before real use.
+- `index.html` / `zero_line_clinic_hub.html`: Self-contained production web app.
+- `google_drive_backend_server.gs`: 5 TB Google Drive Apps Script Server (Zero-Leak Public Token Tracker `?action=track`, Server-Side License & Global Kill-Switch `?action=check_license`, UPI UTR Verifier `?action=verify_license`, and Central Sales Ledger `?action=record_sale`).
+- `manifest.json` & `sw.js`: Cross-OS Progressive Web App installer & offline cache.
+- `robots.txt` & `sitemap.xml`: Search engine indexing and XML sitemap configuration.
+- `LICENSE`: All-Rights-Reserved proprietary commercial license.

@@ -1,16 +1,16 @@
 {
-  "id": "./",
-  "name": "Zero-Line Clinic Hub",
-  "short_name": "Clinic Hub",
-  "description": "Clinic queue, patient records, prescriptions and pharmacy in one app.",
+  "name": "Zero-Line Clinic Hub — Cloud EHR & Queue System",
+  "short_name": "ZeroLineHub",
+  "description": "Eliminate crowded clinic waiting rooms, paper record chaos, and prescription errors with Zero-Line Clinic Hub.",
   "start_url": "./index.html",
-  "scope": "./",
   "display": "standalone",
-  "background_color": "#0a1014",
-  "theme_color": "#0a1014",
+  "background_color": "#090d16",
+  "theme_color": "#090d16",
   "icons": [
-    { "src": "icon-192.png", "sizes": "192x192", "type": "image/png" },
-    { "src": "icon-512.png", "sizes": "512x512", "type": "image/png" },
-    { "src": "icon-maskable-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable" }
+    {
+      "src": "data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAxMDAgMTAwIj48cmVjdCB3aWR0aD0iMTAwIiBoZWlnaHQ9IjEwMCIgcng9IjIyIiBmaWxsPSIjMGY3NjZlIi8+PHRleHQgeD0iNTAiIHk9IjY0IiBmb250LWZhbWlseT0iQXJpYWwiIGZvbnQtc2l6ZT0iNDQiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjZmZmZmZmIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5aTDwvdGV4dD48L3N2Zz4=",
+      "sizes": "192x192",
+      "type": "image/svg+xml"
+    }
   ]
 }
